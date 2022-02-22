@@ -29,7 +29,7 @@ VCO is the most important block in PLL. It produces high frequency output signal
 In reference to circuit design D-FF cast-off in PFD are using TSPC based logic scheme since it operates at high speed and consumes low power and area [2]. Conventional CP and three stage ring VCO are been implemented as shown in Fig. 2(b) & (c). Additional two transistor in VCO are used works as resistor to limit current to circuit and capacitors are used for smoothing the output waveform and remove spikes from output.   
 When the UP signal is generated (high) as shown in Fig. 3, this signifies that the reference signal is leading the VCO output so to match the reference signal and feedback signal VCO input must be tuned such that it generates a high-frequency output signal. This process continues till both the signal matches and PLL enters into lock condition. Similarly, when the DOWN signal is generated (high) this signifies that VCO output leads the reference signal so VCO must be tuned such that it generates a low output frequency till it matches with reference signal.  
 <p aling="center">
-   <img width="1600" src="https://user-images.githubusercontent.com/100137736/155062661-52567e87-65cf-43b7-9fd0-6f686c45fe96.png">  
+   <img width="1600" length="800" src="https://user-images.githubusercontent.com/100137736/155062661-52567e87-65cf-43b7-9fd0-6f686c45fe96.png">  
   <h6 align="center">(a)</h6>
    <img width="1600" src="https://user-images.githubusercontent.com/100137736/155062675-4c88c565-1719-4d1b-ab56-ca5aa5941c1d.png">  
   <h6 align="center">(b)</h6>
