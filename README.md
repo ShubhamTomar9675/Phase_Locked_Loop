@@ -2,11 +2,11 @@
 This repository shows the design of conventional PLL using Synopsys Custom Compiler at 28nm CMOS technology.
 
 #TABLE OF CONTENT
-[Abstract
-Introduction
-Circuit Details
-Circuit Design and Simulation
-References](url)
+[Abstract]
+[Introduction]
+[Circuit Details]
+[Circuit Design and Simulation]
+[References]
 
 #Abstract
 The prime focus of this paper to design a conventional PLL with low power consumption and low area. The design is to be implemented in 28nm CMOS technology.  
