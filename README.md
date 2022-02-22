@@ -45,9 +45,13 @@ When the UP signal is generated (high) as shown in Fig. 3, this signifies that t
 
 ## Simulation  
 <p aling="center">  
-  ![image](https://user-images.githubusercontent.com/100137736/155063448-4642d86c-7818-4588-a166-850aaaa3813f.png)
-  ![image](https://user-images.githubusercontent.com/100137736/155063453-0722c96e-c083-4931-aadc-17a8db7ee05a.png)
-
+  <img width="400" height="400" src="https://user-images.githubusercontent.com/100137736/155063448-4642d86c-7818-4588-a166-850aaaa3813f.png"> 
+ </p>
+ <h6 align="center">(a)</h6>
+<p aling="center"> 
+  <img width="400" height="400" src="https://user-images.githubusercontent.com/100137736/155063453-0722c96e-c083-4931-aadc-17a8db7ee05a.png">  
+</p>
+<h6 align="center">(a)</h6>
  
 </p>  
 <h6 align="center">Fig. 2. (a)PFD [2] (b)CP and LPF [3] (c)VCO [4]</h6>  
