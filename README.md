@@ -46,6 +46,7 @@ When the UP signal is generated (high) as shown in Fig. 3, this signifies that t
  <h6 align="center">Fig. 2. (a)PFD [2] (b)CP and LPF [3] (c)VCO [4]</h6>
 
 ## Simulation  
+As shown in Fig. 3(a) when reference signal leads the feedback signal UP signal is generated (logic 1) and current through charge-pump start to increase and vive-versa when reference signal lags feedback signal as shown in Fig. (b). The voltage appear acrosss LPF which work as input voltage to VCO also known as control voltage which is propotional to the error pulse width.  
 <p aling="center">  
   <img width="1600" src="https://user-images.githubusercontent.com/100137736/155063448-4642d86c-7818-4588-a166-850aaaa3813f.png"> 
  </p>
