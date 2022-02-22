@@ -5,7 +5,8 @@ This repository shows the design of conventional PLL using Synopsys Custom Compi
 * [Abstract](url)  
 * [Introduction](url)  
 * [Circuit Details](url)  
-* [Circuit Design and Simulation](url) 
+* [Circuit Design](url) 
+* [Simulation](url) 
 * [Author](url)
 * [Acknowledgement](url) 
 * [References](url)  
@@ -27,7 +28,7 @@ The concept behind PFD is it compare the two-input signal and produces error sig
 A charge pump is a bipolar switch that is controlled by the three states of the PFD. Conventional charge pump has two symmetrical current sources and two transistors that acts as switch. It generates both the polarity of current pulses into LPF. LPF is used in PLL to get rid of the high frequency components in the output of the PFD. It also removes the high frequency noise.  
 VCO is the most important block in PLL. It produces high frequency output signal in phase with reference input signal to PLL. In an ideal VCO, there is a linear relationship between output frequency and control voltage.  
 
-# Circuit Design and Simulation  
+# Circuit Design   
 In reference to circuit design D-FF cast-off in PFD are using TSPC based logic scheme since it operates at high speed and consumes low power and area [2]. Conventional CP and three stage ring VCO are been implemented as shown in Fig. 2(b) & (c). Additional two transistor in VCO are used works as resistor to limit current to circuit and capacitors are used for smoothing the output waveform and remove spikes from output.   
 When the UP signal is generated (high) as shown in Fig. 3, this signifies that the reference signal is leading the VCO output so to match the reference signal and feedback signal VCO input must be tuned such that it generates a high-frequency output signal. This process continues till both the signal matches and PLL enters into lock condition. Similarly, when the DOWN signal is generated (high) this signifies that VCO output leads the reference signal so VCO must be tuned such that it generates a low output frequency till it matches with reference signal.  
 <p align="center">
@@ -45,7 +46,7 @@ When the UP signal is generated (high) as shown in Fig. 3, this signifies that t
 </p>  
  <h6 align="center">Fig. 2. (a)PFD [2] (b)CP and LPF [3] (c)VCO [4]</h6>
 
-## Simulation  
+# Simulation  
 As shown in Fig. 3(a) when reference signal leads the feedback signal UP signal is generated (logic 1) and current through charge-pump start to increase and vive-versa when reference signal lags feedback signal as shown in Fig. (b). The voltage appear acrosss LPF which work as input voltage to VCO also known as control voltage which is propotional to the error pulse width.  
 <p aling="center">  
   <img width="1600" src="https://user-images.githubusercontent.com/100137736/155063448-4642d86c-7818-4588-a166-850aaaa3813f.png"> 
