@@ -5,7 +5,9 @@ This repository shows the design of conventional PLL using Synopsys Custom Compi
 * [Abstract](url)  
 * [Introduction](url)  
 * [Circuit Details](url)  
-* [Circuit Design and Simulation](url)  
+* [Circuit Design and Simulation](url) 
+* [Author](url)
+* [Acknowledgement](url) 
 * [References](url)  
 
 # Abstract  
@@ -53,7 +55,15 @@ When the UP signal is generated (high) as shown in Fig. 3, this signifies that t
 </p>
 <h6 align="center">(b)</h6>  
 <h6 align="center">Fig. 3. (a)When reference signal leads feedback signal (b) When reference signal lags feedback signal</h6>  
-  
+ 
+# Author
+* Shubham Tomar, M.Tech(VLSI and Embedded Systems), Dhirubhai Ambani Institue of Information and Communication Technology, Gujarat.  
+
+# Acknowledgement
+* Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
+* Cloud Based Analog IC Design Hackathon, IIT Hyderabad
+* Synopsys India  
+
 # References    
 [1]	Razavi, B. (2005). Design of analog CMOS integrated circuits.  
 [2]	Kailuke, A. C., Agrawal, P., & Kshirsagar, R. V. (2014, January). Design of phase frequency detector and charge pump for low voltage high frequency PLL. In 2014 International Conference on Electronic Systems, Signal Processing and Computing Technologies (pp. 74-78). IEEE.  
