@@ -35,8 +35,8 @@ When the UP signal is generated (high) as shown in Fig. 3, this signifies that t
   <h6 align="center">(b)</h6>
    <img width="1600" src="https://user-images.githubusercontent.com/100137736/155062680-2709970a-093a-4d53-8117-c30fe7f3c505.png">  
   <h6 align="center">(c)</h6>
-</p>
-
+</p>  
+ <h6 align="center">Fig. 2. (a)PFD [2] (b)CP and LPF [3] (c)VCO [4]</h6>
 
 
 # References  
