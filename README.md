@@ -51,11 +51,10 @@ When the UP signal is generated (high) as shown in Fig. 3, this signifies that t
 <p aling="center"> 
   <img width="1600" src="https://user-images.githubusercontent.com/100137736/155063453-0722c96e-c083-4931-aadc-17a8db7ee05a.png">  
 </p>
-<h6 align="center">(a)</h6>
- 
-</p>  
-<h6 align="center">Fig. 2. (a)PFD [2] (b)CP and LPF [3] (c)VCO [4]</h6>  
-# References  
+<h6 align="center">(b)</h6>  
+<h6 align="center">Fig. 3. (a)When reference signal leads feedback signal (b) When reference signal lags feedback signal</h6>  
+  
+# References    
 [1]	Razavi, B. (2005). Design of analog CMOS integrated circuits.  
 [2]	Kailuke, A. C., Agrawal, P., & Kshirsagar, R. V. (2014, January). Design of phase frequency detector and charge pump for low voltage high frequency PLL. In 2014 International Conference on Electronic Systems, Signal Processing and Computing Technologies (pp. 74-78). IEEE.  
 [3]	Goyal, B., Suman, S., & Ghosh, P. K. (2016, March). Design of charge pump PLL using improved performance ring VCO. In 2016 International Conference on Electrical, Electronics, and Optimization Techniques (ICEEOT) (pp. 3254-3258). IEEE.  
